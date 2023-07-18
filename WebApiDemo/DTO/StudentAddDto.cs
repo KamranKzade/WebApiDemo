@@ -1,9 +1,8 @@
-﻿namespace WebApiDemo.DTO
+﻿namespace WebApiDemo.DTO;
+
+public class StudentAddDto
 {
-	public class StudentAddDto
-	{
-		public string? Name { get; set; }
-		public string? Surname { get; set; }
-		public int Age { get; set; }
-	}
+	public string? Name { get; set; }
+	public string? Surname { get; set; }
+	public int Age { get; set; }
 }
